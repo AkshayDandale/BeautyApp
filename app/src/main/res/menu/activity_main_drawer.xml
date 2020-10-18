@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mehndi_section"
+            android:icon="@mipmap/protections"
+            android:title="Mehndi Section" />
+        <item
+            android:id="@+id/rangoli_section"
+            android:icon="@mipmap/flax"
+            android:title="Rangoli Section" />
+        <item
+            android:id="@+id/nailart_section"
+            android:icon="@mipmap/nail"
+            android:title="NailArt Section" />
+        <item
+            android:id="@+id/hairstyle_section"
+            android:icon="@mipmap/hair"
+            android:title="Hairstyle Section" />
+        <item
+            android:id="@+id/favourite"
+            android:icon="@mipmap/like"
+            android:title="Favourite" />
+    </group>
+
+    <item android:title="Control">
+        <menu>
+            <item
+                android:id="@+id/account_setting"
+                android:icon="@mipmap/use"
+                android:title="Account Settings" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@mipmap/flash"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>
